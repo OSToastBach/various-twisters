@@ -17,7 +17,7 @@ while running:
         x = math.sin(a/q)*200+400       # *math.sin(a/200) 
         y = math.sin(a/q+90)*200+400    # *math.sin(a/200)
         z = math.sin(a/q+180)*200+400   # *math.sin(a/200)
-        print(a)
+        print(a,x,y,z)
 
         if x<y:
             pygame.draw.line(screen, (0, 0, 255), (x, a), (y, a))
